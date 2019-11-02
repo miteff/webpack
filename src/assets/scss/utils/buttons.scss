@@ -1,0 +1,10 @@
+@import "../utils/vars";
+
+.btn {
+  font-size: $mainFont;
+  text-decoration: none;
+
+  cursor: pointer;
+  border: none;
+  background: none;
+}
