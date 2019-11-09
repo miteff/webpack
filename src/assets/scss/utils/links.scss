@@ -1,0 +1,17 @@
+// links.scss
+
+@import "../utils/vars";
+
+.link {
+  color: $default-color;
+  font-size: rem(14);
+  &:hover {
+    color: $default-color;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+.work-tabs__link {
+  margin: 0 rem(14);
+}

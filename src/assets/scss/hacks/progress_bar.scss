@@ -1,0 +1,52 @@
+// progress_bar.scss
+
+@import "../utils/vars";
+
+.exp-bar {
+  width: 250px;
+  height: 3px;
+
+  background-color: #eeeeee;
+}
+
+.exp-bar__item {
+  height: 100%;
+
+  max-width: 250px;
+
+  background-color: #f7935f;
+
+  position: relative;
+
+  transition: width .3s;
+}
+
+.exp-bar__title {
+  position: absolute;
+  top: -39px;
+  left: 0;
+}
+
+.exp-bar__label {
+  width: 30px;
+  height: 30px;
+
+  color: $white-color;
+  font-weight: 400;
+
+  background-color: #f7935f;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: -44px;
+  right: -15px;
+}
+
+.exp-bar__label:after {
+  content: '';
+
+
+}
