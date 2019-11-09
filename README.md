@@ -2,7 +2,7 @@
 
 Install
 
-git clone https://github.com/miteff/webpack.git
+git clone git@github.com:miteff/webpack.git
 
 released
 
